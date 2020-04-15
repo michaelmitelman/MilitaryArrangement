@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:text="TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/userinsert"
+        android:layout_row="0"
+        android:layout_column="1" />
+
+    <TextView
+        android:text="Start Time :"
+        android:layout_width="69dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView23"
+        android:layout_row="1"
+        android:layout_column="0" />
+
+    <TextView
+        android:text="start_time"
+        android:layout_width="wrap_content"
+        android:layout_height="32dp"
+        android:id="@+id/startinput"
+        android:layout_row="1"
+        android:layout_column="1" />
+
+    <TextView
+        android:text="end_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/endinput"
+        android:layout_row="2"
+        android:layout_column="1" />
+
+    <TextView
+        android:text="End Time :"
+        android:layout_width="71dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView25"
+        android:layout_row="2"
+        android:layout_column="0" />
+
+    <TextView
+        android:text="Location id :"
+        android:layout_width="73dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView15" />
+
+    <TextView
+        android:text="username :"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView20"
+        android:layout_row="0"
+        android:layout_column="0" />
+
+    <TextView
+        android:text="_id"
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/insertedid"
+        android:layout_row="3"
+        android:layout_column="1" />
+</GridLayout>

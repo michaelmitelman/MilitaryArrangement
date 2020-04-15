@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_soldier"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.michael.militaryarrangement.SoldierActivity">
+
+    <TextView
+        android:text="Your next guarding work is at :"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView10"
+        android:layout_marginTop="47dp"
+        android:layout_below="@+id/textView7"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:text="Hello"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView7"
+        android:layout_alignParentTop="true"
+        android:layout_alignEnd="@+id/textView10" />
+
+    <Button
+        android:text="Alarm Clock"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/alarmclock"
+        android:layout_above="@+id/exit"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:text="Log Out"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="124dp"
+        android:id="@+id/exit"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/alarmclock"
+        android:layout_alignEnd="@+id/alarmclock" />
+
+    <Button
+        android:text="Send SMS"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/smssend"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="25dp"
+        android:layout_alignEnd="@+id/exit"
+        android:layout_alignStart="@+id/exit" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/AlarmClockTime"
+        android:text="00:00:00"
+        android:inputType="time"
+        android:layout_alignBaseline="@+id/textView11"
+        android:layout_alignBottom="@+id/textView11"
+        android:layout_toEndOf="@+id/alarmclock"
+        android:layout_marginStart="14dp" />
+
+    <TextView
+        android:text="2:00 PM"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/textView11"
+        android:layout_alignStart="@+id/AlarmClockTime"
+        android:id="@+id/StartTime"
+        android:layout_alignEnd="@+id/AlarmClockTime"
+        android:layout_alignTop="@+id/textView10" />
+
+    <TextView
+        android:text="Your alarm clock will wake up you at :"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="55dp"
+        android:id="@+id/textView11"
+        android:layout_below="@+id/textView10"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:text="Your next guarding work will end at :"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView12"
+        android:layout_above="@+id/AlarmClockTime"
+        android:layout_alignParentStart="true"
+        android:layout_alignEnd="@+id/textView10" />
+
+    <TextView
+        android:text="2:00 PM"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/AlarmClockTime"
+        android:id="@+id/EndTime"
+        android:layout_alignEnd="@+id/StartTime"
+        android:layout_alignTop="@+id/textView12"
+        android:layout_above="@+id/AlarmClockTime" />
+
+    <Button
+        android:text="Call"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/smssend"
+        android:layout_alignEnd="@+id/textView11"
+        android:id="@+id/callbut2"
+        android:layout_alignStart="@+id/smssend" />
+
+</RelativeLayout>

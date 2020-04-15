@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:text="ID"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/soldierid"
+        android:layout_row="0"
+        android:layout_column="1" />
+
+    <TextView
+        android:text="user_name"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/username" />
+
+    <TextView
+        android:text="soldier_password"
+        android:layout_width="149dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/password"
+        android:layout_row="2"
+        android:layout_column="1" />
+
+    <TextView
+        android:text="soldier_phone"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/insertedphone"
+        android:layout_row="3"
+        android:layout_column="1" />
+
+    <TextView
+        android:text="Username :"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView16"
+        android:layout_row="1"
+        android:layout_column="0" />
+
+    <TextView
+        android:text="Password :"
+        android:layout_width="72dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView18"
+        android:layout_row="2"
+        android:layout_column="0" />
+
+    <TextView
+        android:text="Phone :"
+        android:layout_width="71dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView19" />
+
+    <TextView
+        android:text="ID :"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView14"
+        android:layout_row="0"
+        android:layout_column="0" />
+</GridLayout>
